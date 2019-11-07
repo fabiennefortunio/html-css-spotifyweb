@@ -11,12 +11,39 @@ body {
 
 /** SIDEBAR **/
 .sidebar-left {
+    position: relative;
+    float: left;
     width: 160px;
     height: calc(100vh - 100px);
     background-color: red;
 
 }
+
+.navbar {
+    position: absolute;
+    float: left;
+    width: 800px;
+    height: 100px;
+    background-color: blue;
+    float: right;
+}
+
+
+
+
 /** MAIN PAGE**/
+
+.container {
+    width: 900px;
+    height: 300px;
+    background-color: white;
+}
+
+
+
+
+
+
 /** FOOTER **/
 footer {
 
