@@ -21,7 +21,6 @@ body {
 
 .navbar {
     position: absolute;
-    float: left;
     width: 800px;
     height: 100px;
     background-color: blue;
@@ -32,7 +31,9 @@ body {
 
 
 /** MAIN PAGE**/
-
+main {
+    padding-left: 350px;
+}
 .container {
     width: 900px;
     height: 300px;
@@ -46,5 +47,10 @@ body {
 
 /** FOOTER **/
 footer {
+    position: fixed;
+    height: 100px;
+    width: 100%;
+    background-color: grey;
+    bottom: 0;
 
 }
